@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page with Errors</title>
+
+  <!-- Deprecated meta tag -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Missing or incorrect attributes -->
+  <link rel="stylesheet" href="styles.css" hreflang="en">
+
+  <!-- Missing title in the meta description -->
+  <meta name="description">
+
+  <!-- Syntax error in HTML comment -->
+  <!-- This is a comment <-- this is wrong -->
+
+  <!-- Incorrect attribute in <img> tag (width is not a valid attribute) -->
+  <img src="image.jpg" width="500" alt="Error Image" invalid-attribute="test">
+
+</head>
+<body>
+  <h1>Welcome to My Error-filled Page</h1>
+
+  <!-- Missing alt text for accessibility (no alt attribute on image) -->
+  <img src="missing-alt.jpg">
+
+  <!-- Unclosed <div> tag -->
+  <div id="container">
+    <p>This is a paragraph with an unclosed div tag.
+
+  <!-- Unnecessary use of <font> (deprecated tag) -->
+  <font color="red">This text is red.</font>
+
+  <!-- Nested <div> tags with no semantic meaning -->
+  <div><div><div>Too many unnecessary div tags</div></div></div>
+
+  <!-- Empty <a> tag with no href attribute -->
+  <a>Click me</a>
+
+  <!-- Invalid input type -->
+  <input type="notarealtype" placeholder="This is an invalid input type">
+
+  <!-- Invalid CSS property -->
+  <p style="text-decoration: blink;">This text has an invalid CSS property</p>
+
+  <!-- Missing closing tags -->
+  <ul>
+    <li>Item 1
+    <li>Item 2
+    <li>Item 3
+
+  <!-- Deprecated HTML tags -->
+  <center>This text is center aligned using the deprecated <center> tag.</center>
+
+  <!-- Inline styles with invalid CSS properties -->
+  <p style="color: red; background-color: pink; font-family: ;;">This paragraph has bad inline styles.</p>
+
+  <!-- Form input without label (accessibility issue) -->
+  <input type="text" name="username" id="username">
+
+  <!-- Unclosed <button> tag -->
+  <button type="submit">Submit
+
+  <!-- Missing form tag for input elements -->
+  <input type="text" placeholder="Enter your name">
+
+  <!-- Extra <html> closing tag -->
+  </html>
+
+  <!-- End of Body -->
+</body>
+</html>
